@@ -15,7 +15,15 @@ An agent skill providing comprehensive guidance for training LoRA adapters on **
 
 ## Installation
 
-Copy this skill into your agent's skills directory:
+### Hermes Agent
+
+```bash
+hermes skills install jrajasekera/firered-lora-training/skills/firered-lora-training
+```
+
+### Manual
+
+Copy the `skills/firered-lora-training/` directory into your agent's skills directory:
 
 ```
 your-project/
@@ -29,10 +37,9 @@ your-project/
 ## Structure
 
 ```
-firered-lora-training/
+skills/firered-lora-training/
   SKILL.md                        # Main skill instructions
   skill.yaml                      # Metadata
-  README.md                       # This file
   references/
     lora-fundamentals.md          # What LoRA is, how it works
     dataset-format.md             # JSONL format, instructions, directory layout
