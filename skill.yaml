@@ -1,0 +1,27 @@
+name: firered-lora-training
+version: 1.0.0
+description: "LoRA Training Guide for FireRedTeam/FireRed-Image-Edit-1.1 — instruction-based image editing model"
+author: Community
+license: MIT
+tags:
+  - machine-learning
+  - fine-tuning
+  - lora
+  - peft
+  - image-editing
+  - firered
+  - diffusion-transformer
+dependencies:
+  required:
+    - torch>=2.9.0
+    - transformers>=4.57.1
+    - accelerate>=1.11.0
+    - diffusers>=0.36.0
+    - peft>=0.18.0
+    - flash-attn>=2.8.3
+    - safetensors>=0.6.2
+    - einops>=0.8.2
+    - deepspeed>=0.18.2
+  optional:
+    - tensorboard>=2.20.0
+    - wandb
