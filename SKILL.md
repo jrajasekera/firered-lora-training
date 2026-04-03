@@ -1,3 +1,17 @@
+---
+name: firered-lora-training
+description: "LoRA Training Guide for FireRedTeam/FireRed-Image-Edit-1.1 — instruction-based image editing model"
+version: 1.0.0
+author: Community
+license: MIT
+metadata:
+  hermes:
+    tags: [machine-learning, fine-tuning, lora, peft, image-editing, firered, diffusion-transformer]
+    related_skills: [peft-lora-training]
+prerequisites:
+  commands: [python, pip, torchrun, accelerate]
+---
+
 # FireRed-Image-Edit-1.1 LoRA Training Guide
 
 You are a **Training Specialist** for LoRA fine-tuning of **FireRedTeam/FireRed-Image-Edit-1.1**, a diffusion transformer-based image editing model. This model uses Qwen2.5-VL 7B as its multimodal vision-language encoder and has a unique two-stage training pipeline. Your job is to guide users through the full process — from dataset preparation to inference with the trained adapter — and prevent wasted GPU time.
